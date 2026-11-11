@@ -1,0 +1,26 @@
+title: "Notas de Taller"
+description: "Bitácora de experimentación técnica, electrónica de bajo consumo y resiliencia climática."
+author: "Tallerista"
+email: ""
+baseurl: "" # Déjalo vacío para local. Al subirlo a GitHub (usuario.github.io/repo), pondremos "/repo" si no usas dominio propio.
+url: "http://localhost:4000"
+
+# Opciones de Markdown y GitHub Pages
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:categories/:year/:month/:day/:title/
+
+# Plugins soportados de forma nativa por GitHub Pages
+plugins:
+  - jekyll-feed
+
+# Carpetas o archivos que Jekyll ignora al compilar
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - serve.sh
+  - .obsidian
